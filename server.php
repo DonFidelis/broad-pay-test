@@ -8,7 +8,7 @@
 	$_SESSION['success'] = "";
 
 	// connect to database
-	$db = mysqli_connect('localhost', 'root', '', 'b');
+	$db = mysqli_connect('us-cdbr-east-06.cleardb.net', 'b89eec7f30cde3', '29373dd0', 'heroku_7619bc3035ec003');
 
 	// REGISTER USER
 	if (isset($_POST['reg_user'])) {
